@@ -220,7 +220,7 @@ Regarding guml files, a more detailed description can be found in the [guml synt
 ## Theme overrides
 In the godot editor, you can use `ThemeOverrides` to set theme overrides for UI components. But there is no direct 
 interface in the code. **GUML** provides a fake `ThemeOverrides` property. Its value is an object object. You can use the 
-same properties to set the UI component's theme overrides as in the editor(For specific key names, see GUML.ThemeOverrides). 
+same properties to set the UI component's theme overrides as in the editor(For specific key names, see `GUML.ThemeOverrides`). 
 
 The `ThemeOverrides` static property of the Guml class provides all optional theme override entries for a component and specifies their data types.
 
